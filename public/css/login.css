@@ -1,0 +1,65 @@
+.header, section.side {
+  display: none;
+}
+
+.main {
+  padding: 0 !important;
+}
+
+.main .container {
+  width: 513px;
+  margin: 0 auto;
+  margin-top: 6%;
+  background-color: #fff;
+  padding: 70px 72px 65px;
+}
+
+.main .container .logo {
+  width: 178px;
+  margin: 0 auto;
+}
+
+.main .container form {
+  margin-top: 40px;
+}
+
+.main .container form h2 {
+  text-align: center;
+}
+
+.main .container form .block {
+  margin-top: 15px;
+}
+
+.main .container form .block .input_box {
+  margin-right: 0;
+  margin-bottom: 24px;
+}
+
+.main .container form .block .input_box input {
+  width: 100%;
+  background-color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+}
+
+.main .container form .block .input_box:last-child {
+  margin-bottom: 0;
+}
+
+.main .container form .pas_forget {
+  margin-top: 17px;
+}
+
+.main .container form .submit_box {
+  margin-top: 61px;
+  text-align: center;
+}
+
+.main .container form .submit_box .submit {
+  background-color: #ECA16A;
+  color: #fff;
+  border: 1px solid #ECA16A;
+  width: 196px;
+  padding: 10px 0;
+}
+/*# sourceMappingURL=login.css.map */

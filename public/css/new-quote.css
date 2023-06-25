@@ -1,0 +1,186 @@
+.main .container h2.mds {
+  margin-bottom: 17px;
+}
+
+.main .container form .content {
+  padding: 20px 42px 0 42px;
+  background-color: #FFFFFF;
+}
+.main .container form .content.second{
+  padding-bottom: 1px;
+}
+
+.main .container form .content .flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.main .container form .content .flex .iblock{
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.main .container form .content .input_box {
+  margin-right: 35px;
+  margin-bottom: 20px;
+}
+
+.main .container form .content .input_box h3 {
+  margin-bottom: 8px;
+}
+
+.main .container form .content .input_box select {
+  width: 275px;
+}
+
+.main .container form .content .input_box:last-child {
+  margin-right: 0;
+}
+
+.main .container form .content .input_box.kind select {
+  width: 129px;
+}
+
+.main .container form .content .input_box.property {
+  margin-right: 20px;
+}
+
+.main .container form .content .input_box.property select {
+  width: 416px;
+}
+
+.main .container form .content .input_box.issue-room input {
+  width: 200px;
+}
+.main .container form .content .input_box.issue-room input.code {
+  width: 100px;
+}
+.main .container form .content .input_box.issue-room input[name="property_name"]{
+  width: 425px;
+}
+
+.main .container form .content .input_box.c-detail input {
+  width: 100%;
+}
+
+.main .container form .content .text {
+  margin-top: unset;
+  margin-right: unset;
+}
+
+.main .container form .content.first {
+  margin-bottom: 17px;
+}
+
+.main .container form .btn_box {
+  text-align: right;
+  margin-top: 32px;
+}
+
+.main .container form .btn_box .btn {
+  display: inline-block;
+  background-color: #ECA16A;
+  color: #fff;
+  border: 1px solid #ECA16A;
+  border-radius: 6px;
+  text-align: center;
+  width: 64px;
+  padding: 6px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main .container form .btn_box .btn:hover {
+  background-color: #CD6521;
+}
+
+.modal .top_text {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.modal .top_text .item_name {
+  margin-top: 18px;
+}
+
+.modal .modal_box {
+  border: 1px solid #DDDDDD;
+}
+
+.modal .modal_box .content_block {
+  padding-top: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 18px;
+}
+
+.modal .modal_box .content_block .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 18px;
+}
+
+.modal .modal_box .content_block .content .item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+.modal .modal_box .content_block .content:last-child {
+  margin-bottom: 0;
+}
+
+.modal .modal_box .btn_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 16px;
+  border-top: 1px solid #DDDDDD;
+}
+
+.modal .modal_box .btn_block a {
+  display: block;
+  width: 64px;
+  border-radius: 6px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.modal .modal_box .btn_block a.back {
+  border: 1px solid #DDDDDD;
+  margin-right: 16px;
+}
+
+.modal .modal_box .btn_block a.back:hover {
+  opacity: 1;
+  background-color: #D9D9D9;
+}
+
+.modal .modal_box .btn_block a.confirm {
+  background-color: #ECA16A;
+  color: #fff;
+}
+
+.modal .modal_box .btn_block a.confirm:hover {
+  opacity: 1;
+  background-color: #CD6521;
+}
+/*# sourceMappingURL=new-quote.css.map */

@@ -1,0 +1,41 @@
+.badge{
+    display: block;
+    width: 100px;
+    padding: 9px 0.5em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 6px;
+}
+.badge.fill{
+    border: solid 1px #eca16a;
+    background-color: #eca16a;
+    color: white;
+}
+.badge.frame{
+    border: solid 1px #eca16a;
+    background-color: white;
+    color: #eca16a;
+}
+.remark_block{
+    position: relative;
+}
+.show_remark{
+    color: #777777;
+}
+.remark{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    width: 180px;
+    height: auto;
+    padding: 0.5em;
+    border-radius: 6px;
+    background-color: #444444;
+    color: white;
+}
+.remark.standby{
+    display: none;
+}

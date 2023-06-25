@@ -1,0 +1,578 @@
+@charset "UTF-8";
+select {
+    color: #ddd;
+}
+
+option {
+    color: #333;
+}
+
+.bg_box,
+.table_block.case tr .caution::before,
+.table_block.case tr .caution_revised::before,
+.table_info .paging .first-prev,
+.table_info .paging .prev,
+.table_info .paging .next,
+.table_info .paging .last-next {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.table_block {
+    margin-top: 29px;
+    -webkit-box-shadow: 0 4px 20px #0000000a;
+    box-shadow: 0 4px 20px #0000000a;
+    background-color: #fff;
+}
+
+.table_block .th_box {
+    background-color: #d7d7d7;
+}
+
+.table_block table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table_block tr th,
+.table_block tr td {
+    width: auto;
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.6;
+}
+
+.table_block tr th input,
+.table_block tr td input {
+    width: 88%;
+    text-align: center;
+    padding: 5.25px 5px;
+}
+
+.table_block tr th select,
+.table_block tr td select {
+    width: 100%;
+    padding: 5.25px 5px;
+    font-size: 12px;
+}
+
+.table_block tr th.autofill,
+.table_block tr td.autofill {
+    color: #d7d7d7;
+}
+
+.table_block tr th.edit_cell,
+.table_block tr td.edit_cell {
+    width: 85px;
+}
+
+.table_block tr:nth-child(n + 2) {
+    border-bottom: 2px solid #eeeeee;
+}
+
+.table_block tr:last-child {
+    border-bottom: 0px solid transparent;
+}
+
+.table_block tr .detail {
+    color: #eca16a;
+    border: 1px solid #eca16a;
+    border-radius: 6px;
+    width: 55%;
+    margin: 0 auto;
+    padding: 9px 0;
+}
+
+.table_block tr .detail a {
+    color: #eca16a;
+}
+
+.table_block.daily-report tr th:nth-child(2),
+.table_block.daily-report tr td:nth-child(2) {
+    width: 16.072%;
+}
+
+.table_block.daily-report tr th:last-child,
+.table_block.daily-report tr td:last-child {
+    width: 25%;
+    padding-right: 24px;
+}
+
+.table_block.cost-entry tr .plus-minus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 35px;
+    border: 1px solid #d7d7d7;
+    border-radius: 4px;
+}
+
+.table_block.cost-entry tr .plus-minus span,
+.table_block.cost-entry tr .plus-minus input {
+    display: block;
+    min-width: 20px;
+    height: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    padding: 7px 0;
+}
+
+.table_block.cost-entry tr .plus-minus input.num {
+    height: 100%;
+    width: 50px;
+    margin: 0;
+    border: unset;
+    border-radius: unset;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.table_block.cost-entry tr .plus-minus input.num:focus {
+    border: solid 2px #167ac6;
+}
+
+.table_block.cost-entry tr .minus,
+.table_block.cost-entry tr .plus {
+    position: relative;
+    color: transparent;
+}
+.table_block.cost-entry tr .minus {
+    border-right: 1px solid #d7d7d7;
+}
+.table_block.cost-entry tr .plus {
+    border-left: 1px solid #d7d7d7;
+}
+
+.table_block.cost-entry tr .minus::before,
+.table_block.cost-entry tr .plus::before {
+    position: absolute;
+    content: "-";
+    background-color: #d7d7d7;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.table_block.cost-entry tr .minus:active,
+.table_block.cost-entry tr .plus:active {
+    background-color: #d7d7d7;
+}
+
+.table_block.cost-entry tr .minus:active::before,
+.table_block.cost-entry tr .minus:active::after,
+.table_block.cost-entry tr .plus:active::before,
+.table_block.cost-entry tr .plus:active::after {
+    background-color: #a9a9a9;
+}
+
+.table_block.cost-entry tr .minus::before {
+    width: 9px;
+    height: 2px;
+}
+
+.table_block.cost-entry tr .plus::before {
+    width: 9px;
+    height: 2px;
+}
+
+.table_block.cost-entry tr .plus::after {
+    position: absolute;
+    content: "";
+    background-color: #a9a9a9;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 9px;
+    height: 2px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.table_block.list-table tr th,
+.table_block.list-table tr td {
+    width: 12%;
+}
+
+.table_block.list-table tr th:nth-child(4),
+.table_block.list-table tr th:nth-child(5),
+.table_block.list-table tr th:nth-child(6),
+.table_block.list-table tr td:nth-child(4),
+.table_block.list-table tr td:nth-child(5),
+.table_block.list-table tr td:nth-child(6) {
+    width: 18%;
+}
+
+.table_block.list-table tr th:last-child,
+.table_block.list-table tr td:last-child {
+    text-align: center;
+    padding-right: 0;
+}
+
+.table_block.list-table tr th .detail,
+.table_block.list-table tr td .detail {
+    color: #eca16a;
+    border: 1px solid #eca16a;
+    border-radius: 6px;
+    width: 55%;
+    margin: 0 auto;
+    padding: 9px 0;
+}
+
+.table_block.list-table.scroll {
+    margin-top: 0;
+}
+
+.table_block.list-table.scroll tr {
+    border-bottom: 2px solid #eeeeee;
+}
+
+.table_block.daily-table tr th,
+.table_block.daily-table tr td {
+    width: 7.5%;
+}
+
+.table_block.daily-table tr th:nth-child(4),
+.table_block.daily-table tr td:nth-child(4) {
+    width: 16%;
+}
+
+.table_block.daily-table tr th:nth-child(5),
+.table_block.daily-table tr td:nth-child(5) {
+    width: 8%;
+}
+
+.table_block.daily-table tr th:last-child,
+.table_block.daily-table tr td:last-child {
+    text-align: center;
+    padding-right: 0;
+}
+
+.table_block.daily-table tr th .detail,
+.table_block.daily-table tr td .detail {
+    color: #eca16a;
+    border: 1px solid #eca16a;
+    border-radius: 6px;
+    width: 59px;
+    margin: 0 auto;
+    padding: 9px 0;
+}
+
+.table_block.case tr th,
+.table_block.case tr td {
+    width: 9.6%;
+}
+
+.table_block.case tr th:nth-child(3),
+.table_block.case tr td:nth-child(3) {
+    width: 16%;
+}
+
+.table_block.case tr th:last-child,
+.table_block.case tr td:last-child {
+    text-align: center;
+}
+
+.table_block.case tr th .item,
+.table_block.case tr td .item {
+    color: #fff;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    padding: 8px 0;
+    display: block;
+    width: 110px;
+    margin: 0 auto;
+}
+
+.table_block.case tr th .item.before-survey,
+.table_block.case tr td .item.before-survey {
+    background-color: #a0adba;
+}
+
+.table_block.case tr th .item.estimated,
+.table_block.case tr td .item.estimated {
+    background-color: #7db5f0;
+}
+
+.table_block.case tr th .item.construction,
+.table_block.case tr td .item.construction {
+    background-color: #70c0ee;
+}
+
+.table_block.case tr th .item.done,
+.table_block.case tr td .item.done {
+    background-color: #6fcf97;
+}
+
+.table_block.case tr th .item.claim,
+.table_block.case tr td .item.claim {
+    background-color: #f3cd57;
+}
+
+.table_block.case tr th .item.payment,
+.table_block.case tr td .item.payment {
+    background-color: #eb8357;
+}
+
+.table_block.case tr th .item.distribution,
+.table_block.case tr td .item.distribution {
+    background-color: #f56262c8;
+}
+
+.table_block.case tr th .item.cancel,
+.table_block.case tr td .item.cancel {
+    background-color: #d4d4d4;
+}
+
+.table_block.case tr .caution,
+.table_block.case tr .caution_revised {
+    position: relative;
+}
+
+.table_block.case tr .caution::before,
+.table_block.case tr .caution_revised::before {
+    position: absolute;
+    content: "";
+    background-image: url(../img/common/caution.png);
+    width: 14px;
+    height: 14px;
+    top: 0;
+    bottom: 0;
+    left: -30px;
+    margin: auto;
+}
+
+.table_block.case tr .caution::after {
+    position: absolute;
+    content: "分配金確定を解除中です。";
+    background-color: #d33535;
+    color: #fff;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 5px 10px;
+    top: -24px;
+    left: -104px;
+    display: none;
+}
+
+.table_block.case tr .caution_revised::after {
+    position: absolute;
+    content: "確定後編集済です。";
+    background-color: #d33535;
+    color: #fff;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 5px 10px;
+    top: -24px;
+    left: -104px;
+    display: none;
+}
+
+.table_block.case tr .caution:hover::after,
+.table_block.case tr .caution_revised:hover::after {
+    display: block;
+}
+
+.table_block.case tr.included td,
+.table_block.case tr.included td a,
+.table_block.case tr.included td .item.included {
+    color: #aaa;
+}
+.table_block.case tr.included .caution::before,
+.table_block.case tr.included .caution_revised::before {
+    filter: grayscale(1) brightness(200%);
+}
+.table_block.case tr.included .caution::after,
+.table_block.case tr.included .caution_revised::after {
+    background-color: #aaa;
+}
+
+.table_block.staff tr th,
+.table_block.staff tr td {
+    width: auto;
+}
+
+.table_block.staff tr th:last-child,
+.table_block.staff tr td:last-child {
+    width: 10%;
+}
+
+.table_block.prop_list tr td:nth-child(2),
+.table_block.prop_list tr td:nth-child(3),
+.table_block.prop_list tr td:nth-child(4),
+.table_block.prop_list tr th:nth-child(2),
+.table_block.prop_list tr th:nth-child(3),
+.table_block.prop_list tr th:nth-child(4) {
+    text-align: left;
+}
+
+.table_block.prop_list tr td:last-child,
+.table_block.prop_list tr th:last-child {
+    width: 10%;
+}
+
+.table_block.manage tr td:first-child,
+.table_block.manage tr th:first-child {
+    padding-left: 24px;
+}
+
+.table_block.manage tr td:last-child,
+.table_block.manage tr th:last-child {
+    width: 10%;
+    text-align: center;
+}
+
+.table_block.key_order tr th,
+.table_block.key_order tr td {
+    width: auto;
+}
+.table_block.key_order tr th:nth-child(1),
+.table_block.key_order tr td:nth-child(1) {
+    width: 135px;
+}
+.table_block.key_order tr th:nth-child(9),
+.table_block.key_order tr td:nth-child(9) {
+    width: 60px;
+}
+.table_block.key_order tr th.wide,
+.table_block.key_order tr td.wide {
+    width: 200px;
+}
+.table_block.key_create tr th:nth-child(1),
+.table_block.key_create tr td:nth-child(1) {
+    padding-left: 10px;
+}
+
+.table_block.scroll {
+    margin-top: 0;
+}
+
+.table_block.scroll tr {
+    border-bottom: 2px solid #eeeeee;
+}
+
+.table_block.scroll tr.denial td {
+    color: #a9a9a9;
+    padding: 12px 0;
+}
+
+.table_info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.table_info .paging {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.table_info .paging .num {
+    display: block;
+    margin-right: 32px;
+}
+
+.table_info .paging .num.current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #eca16a;
+    width: 32px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.table_info .paging .num:last-child {
+    margin-right: 0;
+}
+
+.table_info .paging .first-prev {
+    background-image: url(../img/common/first-prev_arrow.png);
+    width: 14px;
+    height: 14px;
+    margin-right: 25px;
+}
+
+.table_info .paging .prev {
+    background-image: url(../img/common/prev_arrow.png);
+    width: 9px;
+    height: 14px;
+    margin-right: 19px;
+}
+
+.table_info .paging .next {
+    background-image: url(../img/common/next_arrow.png);
+    width: 9px;
+    height: 14px;
+    margin-right: 25px;
+}
+
+.table_info .paging .last-next {
+    background-image: url(../img/common/last-next_arrow.png);
+    width: 14px;
+    height: 14px;
+}
+.table_info .paging .first-prev.standby,
+.table_info .paging .prev.standby,
+.table_info .paging .next.standby,
+.table_info .paging .last-next.standby {
+    filter: brightness(1000%) contrast(20%);
+}
+
+.table_info .num_box .number {
+    color: #a9a9a9;
+}
+.table_block tr th.name-cell,
+.table_block tr td.name-cell {
+    padding-left: 20px;
+    text-align: left;
+}
+.table_block tr th.name-cell:first-child,
+.table_block tr td.name-cell:first-child {
+    padding-left: 40px;
+}
+.table_block tr th.short-cell,
+.table_block tr td.short-cell {
+    width: 100px;
+}
+.table_block tr th.wide-cell,
+.table_block tr td.wide-cell {
+    width: 23%;
+}

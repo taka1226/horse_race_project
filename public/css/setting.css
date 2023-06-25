@@ -1,0 +1,258 @@
+.main {
+  padding-right: 0;
+}
+
+.main .container {
+  margin: 0;
+}
+
+.main .container .mds_box {
+  padding-top: 34px;
+  padding-left: 54px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #D7D7D7;
+}
+
+.main .container .mds_box h2 {
+  margin-left: 108px;
+}
+
+.main .container .content_area {
+  margin: 0 162px;
+  margin-top: 70px;
+}
+
+.main .container .content_area .block {
+  margin-bottom: 32px;
+}
+
+
+.main .container .content_area .content {
+  margin-top: 21px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #fff;
+  padding: 21px 30px;
+  -webkit-box-shadow: 0 3px 12px #33333325;
+          box-shadow: 0 3px 12px #33333325;
+}
+
+.main .container .content_area .content h3 {
+  margin-bottom: 10px;
+}
+
+.main .container .content_area .content h3 span {
+  background-color: #EB5757;
+  color: #fff;
+  border-radius: 30px;
+  padding: 2px 6px;
+  margin-left: 16px;
+}
+
+.main .container .content_area .content .radio_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4px;
+  margin-top: 26px;
+}
+
+.main .container .content_area .content .radio_box .box {
+  margin-right: 60px;
+}
+
+.main .container .content_area .content .radio_box .box input[type=radio] {
+  display: none;
+}
+
+.main .container .content_area .content .radio_box .box label.radio {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 0;
+  padding-left: 30px;
+  position: relative;
+  width: auto;
+}
+
+.main .container .content_area .content .radio_box .box label.radio::before {
+  background: #fff;
+  border: 1px solid #CAECF6;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  left: -5px;
+  margin-top: -14px;
+  position: absolute;
+  top: 50%;
+}
+
+.main .container .content_area .content .radio_box .box label.radio::after {
+  background: #4973AC;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  left: 1.24px;
+  margin-top: -8px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+}
+
+.main .container .content_area .content .radio_box .box input[type=radio]:checked + label::after {
+  opacity: 1;
+}
+
+.main .container .content_area .content .radio_box .box .week_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px 0;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week {
+  margin-right: 27px;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 33px;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"]::before, .main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"]::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"]::before {
+  background-color: #fff;
+  border-radius: 0%;
+  border: 1px solid #D2D2D2;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: translateY(-58%);
+          transform: translateY(-58%);
+  top: 58%;
+  border-radius: 4px;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"]::after {
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+  opacity: 0;
+  height: 6px;
+  width: 11px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: -7px;
+  left: 4px;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"]:checked::before {
+  background-color: #333333;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week input[type="checkbox"]:checked::after {
+  opacity: 1;
+}
+
+.main .container .content_area .content .radio_box .box .week_box .week:last-child {
+  margin-right: 0;
+}
+
+.main .container .content_area .content .radio_box .box .time_box {
+  margin-top: 16px;
+}
+
+.main .container .content_area .content .radio_box .box .time_box input[type=text] {
+  width: 49px;
+}
+
+.main .container .content_area .content .sub_con .con {
+  margin-bottom: 16px;
+}
+
+.main .container .content_area .content .sub_con .con h4 {
+  margin-bottom: 8px;
+}
+
+.main .container .content_area .content .sub_con .con:last-child {
+  margin-bottom: 0;
+}
+
+.main .container .content_area .content .sub_con .input_box.mail input, .main .container .content_area .content .sub_con .input_box.password input {
+  width: 559px;
+}
+
+.main .container .content_area .content .keep_btn {
+  margin-top: 16px;
+}
+
+.main .container .content_area .content .keep_btn input[type="submit"] {
+  background-color: #ECA16A;
+  border: 1px solid #ECA16A;
+  color: #fff;
+  padding: 8px 20px;
+}
+
+.main .container .content_area .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.main .container .content_area .btn_box input[type="submit"] {
+  -webkit-box-shadow: 0 1px 2px #0000001c;
+          box-shadow: 0 1px 2px #0000001c;
+  padding: 8.25px 17px;
+}
+
+.main .container .content_area .btn_box .register {
+  margin-left: 16px;
+  background-color: #ECA16A;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main .container .content_area .btn_box .register:hover {
+  background-color: #E96F16;
+}
+
+.main .container .content_area .btn_box .back {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main .container .content_area .btn_box .back:hover {
+  background-color: #ccced2;
+}
+/*# sourceMappingURL=setting.css.map */

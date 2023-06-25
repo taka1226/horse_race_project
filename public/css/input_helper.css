@@ -1,0 +1,35 @@
+.input-helper {
+    position: relative;
+}
+.input-helper-items {
+    position: absolute;
+    left: 0;
+    width: 425px;
+    max-width: calc(100vw - 300px);
+    max-height: calc(80vh - 2em);
+    padding: 0;
+    background-color: white;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    z-index: 10;
+    overflow-y: scroll;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+}
+.input-helper-items li {
+    margin: 0;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+.input-helper-items li:nth-child(2n) {
+    background-color: #eee;
+}
+.input-helper-items li.focus,
+.input-helper-items li:hover {
+    background-color: #def;
+}
+.standby {
+    border: none;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}

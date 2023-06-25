@@ -1,0 +1,153 @@
+/**
+.master {
+    padding-right: 0;
+}
+.master .container {
+  margin-top: 0;
+  margin-left: 0;
+}
+**/
+.master .sign_up {
+    background-color: #eca16a;
+    border-radius: 6px;
+    color: #ffffff;
+    width: 176px;
+    text-align: center;
+    display: block;
+    padding: 11px 0;
+    margin-bottom: 16px;
+}
+
+/**
+.master .mds_box {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.master .mds_box .mds_flex {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.master .mds_box .mds_flex h2 {
+    margin-top: 0;
+}
+**/
+.master .content.first {
+    margin: 0 auto;
+    margin-bottom: 29px;
+    -webkit-box-shadow: none;
+    padding: 20px 33px;
+    box-shadow: none;
+    background-color: #FFFFFF;
+}
+
+.master .content.first .input_box {
+    margin-right: 16px;
+}
+
+.master .content.first .input_box input {
+    width: 240px;
+}
+
+.master .content.first .input_box:last-child input {
+    width: 330px;
+}
+
+.master .content.first .input_box input[type="radio"],
+.master .content.first .input_box input[type="checkbox"] {
+    border: 0;
+    width: 1em;
+    height: 1em;
+    margin-right: 1em;
+    padding: 0;
+    cursor: pointer;
+}
+
+.master .table_sec {
+    margin: 0 auto;
+}
+.master .table_sec .table_block{
+    margin-top: unset;
+}
+.master .table_sec .table_block tr td,
+.master .table_sec .table_block tr th {
+    text-align: left;
+}
+
+.master .table_sec .table_block tr td:first-child,
+.master .table_sec .table_block tr th:first-child {
+    padding-left: 24px;
+}
+
+.master .table_sec .table_block tr td:last-child,
+.master .table_sec .table_block tr th:last-child {
+    padding-right: 24px;
+    text-align: center;
+}
+
+.master .table_sec .table_block tr .detail {
+    width: 64px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.master .table_sec .table_block.property tr th:first-child,
+.master .table_sec .table_block.property tr td:first-child {
+    width: 30%;
+}
+
+.master .table_sec .table_block.property tr th:nth-child(3),
+.master .table_sec .table_block.property tr td:nth-child(3) {
+    width: 30%;
+}
+
+.master .m_container .margin_table {
+    margin-bottom: 58px;
+}
+
+.master .m_container .margin_table .sub_mds_box {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.master .m_container .margin_table .table_sec {
+    margin-top: 32px;
+}
+
+.master .m_container .margin_table .table_sec .applying {
+    text-align: right;
+}
+
+.master .m_container .margin_table .table_sec .applying span {
+    padding: 9.5px 15.5px;
+    color: #fff;
+    background-color: #eca16a;
+    border-radius: 33px;
+}
+
+.master .m_container .margin_table:last-child {
+    margin-bottom: 0;
+}
+
+.master .table_info {
+    margin: 0 auto;
+    margin-top: 32px;
+}
+/*# sourceMappingURL=master.css.map */
